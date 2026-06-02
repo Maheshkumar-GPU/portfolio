@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="S. Mahesh Kumar — Machine Learning Engineer specializing in Python, Deep Learning, and AWS. Portfolio showcasing projects in CNN, U-Net, and cloud deployment." />
+  <title>Mahesh Kumar | Machine Learning Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a class="nav-logo" href="#home">&lt; M.K. /&gt;</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span> Available for Opportunities
+      </div>
+      <h1 class="hero-title reveal">
+        Hi, I'm <span class="accent">Mahesh<br>Kumar</span>
+      </h1>
+      <p class="hero-role reveal">Machine Learning Engineer</p>
+      <p class="hero-desc reveal">
+        I build precise, capable machine learning models and intelligent applications.
+        Focused on Deep Learning, Computer Vision, and Cloud Deployment.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="btn btn-outline" download><i class="fas fa-download"></i> Download Resume</a>
+      </div>
+      <div class="hero-socials reveal">
+        <a href="https://github.com/MaheshKumar-GPU" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/maheshkumarsivasamy" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:maheshsivasamy.in@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-avatar">
+          <div class="avatar-box">
+            <i class="fas fa-user-astronaut avatar-icon"></i>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Internships</span></div>
+            <div class="stat"><span class="stat-num">7.8</span><span class="stat-label">CGPA</span></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a <strong>Machine Learning Engineer</strong> and final-year Computer &amp; Communication Engineering student
+            at Kathir College of Engineering, Coimbatore. My work sits at the intersection of data, deep learning, and deployment —
+            turning raw datasets into production-ready intelligent systems.
+          </p>
+          <p>
+            I've built CNN-based image classifiers, U-Net segmentation models for medical imaging, and
+            ensemble learning pipelines for churn prediction — all shipped end-to-end with FastAPI and Streamlit.
+            On the cloud side, I've deployed and managed Python applications on AWS EC2 with S3 and IAM configurations.
+          </p>
+          <p>
+            I'm actively seeking <strong>internship or entry-level ML engineering roles</strong> where I can contribute
+            to real-world AI systems, keep learning fast, and grow alongside a strong team.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">AWS</span>
+            <span class="tag">FastAPI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">C++</span>
+          </div>
+          <div class="skill-logos">
+            <i class="fab fa-python skill-logo" title="Python"></i>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+            <h3>Machine Learning</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Supervised Learning</span>
+            <span class="skill-tag">Classification</span>
+            <span class="skill-tag">Feature Engineering</span>
+            <span class="skill-tag">Model Training</span>
+            <span class="skill-tag">Evaluation</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+            <h3>Deep Learning</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">CNN</span>
+            <span class="skill-tag">U-Net</span>
+            <span class="skill-tag">Image Classification</span>
+            <span class="skill-tag">Segmentation</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <h3>Data &amp; Deployment</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Data Analysis</span>
+            <span class="skill-tag">Preprocessing</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Streamlit</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+            <h3>Cloud &amp; Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS EC2</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS IAM</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Jupyter</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+          <div class="skill-logos">
+            <i class="fab fa-aws skill-logo" title="AWS"></i>
+            <i class="fab fa-github skill-logo" title="GitHub"></i>
+            <i class="fab fa-git-alt skill-logo" title="Git"></i>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="fas fa-tools"></i></div>
+            <h3>Dev Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">scikit-learn</span>
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">PyCharm</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-tshirt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Maheshkumar-GPU/appreal_textile_prediction" target="_blank" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Apparel Textile Prediction</h3>
+          <p class="project-desc">
+            CNN-based image classification model trained on Fashion-MNIST achieving 90%+ accuracy.
+            Built a complete end-to-end pipeline covering preprocessing, training, API integration, and deployment.
+          </p>
+          <ul class="project-features">
+            <li>90%+ classification accuracy on Fashion-MNIST</li>
+            <li>End-to-end ML pipeline with FastAPI backend</li>
+            <li>Deployed with Streamlit for interactive inference</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">CNN</span>
+            <span class="tech-badge">FastAPI</span>
+            <span class="tech-badge">Streamlit</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Maheshkumar-GPU/customer_churn_prediction" target="_blank" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Customer Churn Prediction</h3>
+          <p class="project-desc">
+            Ensemble learning model to predict customer churn using Random Forest and Gradient Boosting.
+            Performed extensive preprocessing and feature engineering with Pandas.
+          </p>
+          <ul class="project-features">
+            <li>Random Forest + Gradient Boosting ensemble</li>
+            <li>Feature engineering with Pandas</li>
+            <li>Improved predictive performance over baseline</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">scikit-learn</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">Random Forest</span>
+            <span class="tech-badge">Gradient Boosting</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-x-ray"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Maheshkumar-GPU/medical_image_segmentation" target="_blank" class="project-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Medical Image Segmentation</h3>
+          <p class="project-desc">
+            U-Net deep learning model for segmenting tumor regions from labeled medical scans.
+            Evaluated using Intersection over Union (IoU) metric.
+          </p>
+          <ul class="project-features">
+            <li>U-Net architecture for pixel-wise segmentation</li>
+            <li>Tumor region detection from medical scans</li>
+            <li>Evaluated with IoU metric</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">Keras</span>
+            <span class="tech-badge">U-Net</span>
+            <span class="tech-badge">OpenCV</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">AWS Cloud Computing Intern</h3>
+                <p class="timeline-company"><i class="fab fa-aws"></i> Cloud Internship</p>
+              </div>
+              <span class="timeline-date">Jan 2026 – Mar 2026</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Deployed and managed AWS resources using EC2, S3, and IAM</li>
+              <li>Implemented secure access policies and supported cloud resource configuration</li>
+              <li>Assisted in deploying Python-based applications in a cloud environment</li>
+            </ul>
+            <div class="timeline-tech">
+              <span class="tech-badge">AWS EC2</span>
+              <span class="tech-badge">AWS S3</span>
+              <span class="tech-badge">AWS IAM</span>
+              <span class="tech-badge">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Junior ML &amp; Data Analyst</h3>
+                <p class="timeline-company"><i class="fas fa-robot"></i> Machine Learning Role</p>
+              </div>
+              <span class="timeline-date">Dec 2025 – Jan 2026</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Developed classification models using TensorFlow and Keras</li>
+              <li>Preprocessed datasets, performed data augmentation, and evaluated model accuracy</li>
+              <li>Integrated trained models into web applications using FastAPI and Streamlit</li>
+            </ul>
+            <div class="timeline-tech">
+              <span class="tech-badge">TensorFlow</span>
+              <span class="tech-badge">Keras</span>
+              <span class="tech-badge">FastAPI</span>
+              <span class="tech-badge">Streamlit</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">B.E. Computer &amp; Communication Engineering</h3>
+                <p class="timeline-company"><i class="fas fa-university"></i> Kathir College of Engineering, Coimbatore, Tamil Nadu</p>
+              </div>
+              <span class="timeline-date">2023 – 2027</span>
+            </div>
+            <div class="edu-score">
+              <span class="score-label">CGPA</span>
+              <span class="score-value">7.8 / 10</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Higher Secondary Education</h3>
+                <p class="timeline-company"><i class="fas fa-school"></i> Rani Meyyamai Hr. Sec. School, Puliyur, Karur, Tamil Nadu</p>
+              </div>
+              <span class="timeline-date">2021 – 2022</span>
+            </div>
+            <div class="edu-score">
+              <span class="score-label">Percentage</span>
+              <span class="score-value">77%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle reveal">I'm open to internship and entry-level opportunities. Drop me a message!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:maheshsivasamy.in@gmail.com" class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-item-label">Email</p>
+              <p class="contact-item-value">maheshsivasamy.in@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:+918220397250" class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-item-label">Phone</p>
+              <p class="contact-item-value">+91 82203 97250</p>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-item-label">Location</p>
+              <p class="contact-item-value">Coimbatore, Tamil Nadu, India</p>
+            </div>
+          </div>
+          <a href="https://www.linkedin.com/in/maheshkumarsivasamy" target="_blank" class="contact-item">
+            <div class="contact-item-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <p class="contact-item-label">LinkedIn</p>
+              <p class="contact-item-value">maheshkumarsivasamy</p>
+            </div>
+          </a>
+          <a href="https://github.com/MaheshKumar-GPU" target="_blank" class="contact-item">
+            <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <p class="contact-item-label">GitHub</p>
+              <p class="contact-item-value">MaheshKumar-GPU</p>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message (at least 10 characters)..."></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed &amp; built by <span class="accent">S. Mahesh Kumar</span></p>
+    <p class="footer-sub">Machine Learning Engineer &bull; Python &bull; Deep Learning &bull; AWS</p>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
